@@ -5,7 +5,8 @@
     font-family: 'PT Sans', sans-serif;
 }
 
-body {
+body, html {
+    width: 100%;
     background-color: #f9f9f9;
 }
 
@@ -64,7 +65,7 @@ nav {
 .home-main {
     align-items: center;
     display: flex;
-    gap: 10rem;
+    gap: 5rem;
     justify-content: center;
     position: relative;
 }
@@ -76,11 +77,36 @@ nav {
     position: relative;
 }
 
-.home-image
-
-.home-text span {
-    cursor: pointer;
-    display: flex;
-    gap: 1rem;
-    margin: 2.5rem;
+.home-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
 }
+
+.home-text p {
+    padding-top: 1.5rem;
+}
+
+.home-image img {
+    height: 20rem;
+    width: 17rem;
+    border: 3px solid black;
+    z-index: -1
+}
+
+.about-content {
+    background-color: #d3d3d3;
+    padding-top: 4rem;
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.about-image img {
+    height: 20rem;
+    width: 23rem;
+    border: 3px solid black;
+}
+
