@@ -171,10 +171,15 @@ nav {
     color:#05B2FD
 }
 
+.project-links {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
 .project-1 {
     border-radius: 12.5px;
+    background: #fff;
     box-shadow: 0 0 5px rgba(0,0,0, .9);
-    justify-content: flex-start;
     height: auto;
     padding: 2rem;
     margin: 2rem 0;
@@ -189,4 +194,92 @@ nav {
 .project-1-content img {
     border-radius: 12.5px;
     box-shadow: 0 0 5px rgba(0,0,0, .9);
+}
+
+.project-2 {
+    border-radius: 12.5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
+    height: auto;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.project-2-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-2-content img {
+    border-radius: 12.5px;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
+}
+
+.project-3 {
+    border-radius: 12.5px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
+    height: auto;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.project-3-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-3-content img {
+    border-radius: 12.5px;
+    box-shadow: 0 0 5px rgba(0,0,0, .9);
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content p {
+    text-transform: uppercase;
+    color: #05B2FD;
+}
+
+.contactcontainer {
+    max-width: 100%;
+    background-color: #fff;
+    padding: 5rem;
+}
+
+.contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8rem;
+    margin-top: 0.5rem;
+}
+
+.contact-icon-box {
+    display: inline-block;
+}
+
+footer {
+    margin-bottom: 0;
+    bottom: 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: grey;
+    margin-bottom: 0;
+}
+
+.footersocials {
+    margin: 5rem;
+}
+
+.footericons {
+    gap: 5rem;
 }
