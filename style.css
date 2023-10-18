@@ -6,8 +6,9 @@
 
 body, html {
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: white;
     scroll-behavior: smooth;
+        transition: all 0.3 ease 1s;
 }
 
 nav {
@@ -53,7 +54,6 @@ nav {
     font-weight: bold;
     color: black;
     cursor: pointer;
-    transition: all 0.3 ease 0s;
 }
 
 .nav-links li a:hover {
@@ -117,7 +117,7 @@ nav {
 
 .home-image img {
     height: 20rem;
-    width: 17rem;
+    width: 24rem;
     border: 3px solid black;
     border-radius: 25px;
     z-index: -1
@@ -163,6 +163,7 @@ nav {
 
 .projects {
     background-color: #f5f4f4;
+    padding-bottom: 3rem;
 }
 
 #portfolio-header {
@@ -196,6 +197,11 @@ nav {
     box-shadow: 0 0 5px rgba(0,0,0, .9);
     width: 350px;
     height: 300px;
+    margin-left: 6rem;
+}
+
+#p1desc {
+    padding-bottom: 8rem;
 }
 
 .project-2 {
@@ -218,6 +224,11 @@ nav {
     box-shadow: 0 0 5px rgba(0,0,0, .9);
     width: 350px;
     height: 200px;
+    margin-left: 6rem;
+}
+
+#p2desc {
+    padding-bottom: 4rem;
 }
 
 .project-3 {
@@ -240,6 +251,11 @@ nav {
     box-shadow: 0 0 5px rgba(0,0,0, .9);
     width: 350px;
     height: 200px;
+    margin-left: 6rem;
+}
+
+#p3desc {
+    padding-bottom: 5rem;
 }
 
 .contact-content {

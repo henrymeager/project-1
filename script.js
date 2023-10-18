@@ -25,5 +25,12 @@ fetch('data.json')
  p2Image.src = data[1].img
  let p2Desc = document.getElementById('p2desc')
  p2Desc.innerHTML = data[1].desc
+
+ let p3Heading = document.getElementById('p3heading')
+ p3Heading.innerHTML = data[2].name
+ let p3Image = document.getElementById('p3image')
+ p3Image.src = data[2].img
+ let p3Desc = document.getElementById('p3desc')
+ p3Desc.innerHTML = data[2].desc
 });
 
