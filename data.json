@@ -1,8 +1,19 @@
 [
-    "project1" {
-        "projectname": "Linux"
-        ""
+        {
+        "name": "Border Collie",
+        "img": "https://www.animalfactsencyclopedia.com/images/xborder-collie-puppy.jpg.pagespeed.ic.BRnKRhyEHj.jpg",
+        "desc": "The Border Collie is a British breed of herding dog of the collie type of medium size. It originates in the region of the Anglo-Scottish border, and descends from the traditional sheepdogs once found all over the British Isles. It is kept mostly as a working sheep-herding dog or as a companion animal. It competes with success in sheepdog trials. It has been claimed that it is the most intelligent breed of dog."
+        },
 
-
-    }
+        {
+        "name": "Springer Spaniel",
+        "img": "https://www.natureplprints.com/p/729/working-english-springer-spaniel-puppy-6-weeks-15336941.jpg.webp",
+        "desc": "The English Springer is a breed of gun dog in the Spaniel group traditionally used for flushing and retrieving game. It is an affectionate, excitable breed with a typical lifespan of twelve to fourteen years. They are very similar to the Welsh Springer Spaniel and are descended from the Norfolk or Shropshire Spaniels of the mid-19th century."
+        },
+        
+        {
+        "name": "Long-Haired Dachshund",
+        "img": "https://www.warrenphotographic.co.uk/photography/bigs/49201-Long-haired-Dapple-Dachshund-puppy-7-weeks-old-white-background.jpg",
+        "desc": "A typical dachshund is long-bodied and muscular with short stubby legs. Its front paws are disproportionately large, being paddle-shaped and particularly suitable for digging. Its skin is loose enough not to tear while tunneling in tight burrows to chase prey."
+        }
 ]
