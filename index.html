@@ -14,20 +14,20 @@
 <body>
 
 <section class="navbar">
-        <nav>
-        <h3 class="logo">Henry Meager</h3>
+        <nav id="nav">
+        <h3 class="logo" id="navlogo">Henry Meager</h3>
     <ul class="nav-links">
         <li>
-            <a href="#home">Home</a>
+            <a href="#home" id="navlink1">Home</a>
         </li>
         <li>
-            <a href="#about">About</a>
+            <a href="#about" id="navlink2">About</a>
         </li>
         <li>
-            <a href="#projects">Projects</a>
+            <a href="#projects" id="navlink3">Projects</a>
         </li>
         <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" id="navlink4">Contact</a>
         </li>
     </ul>
     </nav>
@@ -35,10 +35,10 @@
 
 <section id="home">
      <div class="container">
-        <div class="content">
+        <div class="content" id="homemaincontent">
             <div class="home-main">
-                <div class="home-text">
-                    <h1>Software Developer</h1>
+                <div class="home-text" id="hometext">
+                    <h1>My Portfolio</h1>
                     <p>Hi, my name is Henry and welcome to my portfolio, I'm an aspiring <br> software developer currently based in Oxfordshire, United Kingdom. <br> Scroll down to learn more about me, and see some of my work!</p>
                     <span>
                         <a href="https://github.com/henrymeager">
@@ -58,7 +58,7 @@
                 </div>
                 <div class="home-image">
                     <div>
-                    <img src="https://images.hdqwalls.com/wallpapers/baby-yoda-cute-4k-st.jpg" alt="A picture of Grogu from the Mandalorian TV series"/>
+                    <img src="https://img.pixers.pics/pho_wat(s3:700/FO/57/73/37/67/700_FO57733767_48dcd17a8a41f31cd783a676a43d0e45.jpg,639,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,419,650,jpg)/stickers-front-view-of-a-dalmatian-puppy-standing-isolated-on-white.jpg.jpg" alt="A picture of Grogu from the Mandalorian TV series"/>
                     </div>
                 </div>
           </div>
@@ -73,8 +73,8 @@
             </div>
             <div class="about-text">
                 <h3>ABOUT ME</h3>
-                <h4>An aspiring software developer, <br> based in Oxfordshire, United Kingdom</h4>
-                <p>I am currently enrolled in the "Software Developer Essentials" course by iO Academy, where I am learning the foundations of software engineering. So far I have been learning HTML, CSS, JavaScript and Tailwind, and will be looking to add more skills to my arsenal as I progress through the course. I am hoping that once I have finished I can utilise my skills and body of work to leverage a position in the tech industry.</p>
+                <h4 id="abouttitle">An aspiring software developer, <br> based in Oxfordshire, United Kingdom</h4>
+                <p id="aboutmaintext">I am currently enrolled in the "Software Developer Essentials" course by iO Academy, where I am learning the foundations of software engineering. So far I have been learning HTML, CSS, JavaScript and Tailwind, and will be looking to add more skills to my arsenal as I progress through the course. I am hoping that once I have finished I can utilise my skills and body of work to leverage a position in the tech industry.</p>
             </div>
 
         </div>
@@ -85,8 +85,8 @@
     <div class="container">
         <div class="projects-content">
             <p id="portfolio-header">My Favourite Dog Breeds (Project Section)</p>
-            <h3>In no particular order...</h3>
-                <div class="project-1">
+            <h3 id="projectstitle">In no particular order...</h3>
+                <div class="project-1" id="project1">
                 <h3 id="p1heading">Example Project 1</h3>
                     <div class="project-1-content">
                         <div>
@@ -101,7 +101,7 @@
                         <img src="https://via.placeholder.com/350x200" id="p1image">
                     </div>
                 </div>
-                    <div class="project-2">
+                    <div class="project-2" id="project2">
                     <h3 id="p2heading">Example Project 2</h3>
                         <div class="project-2-content">
                             <div>
@@ -116,7 +116,7 @@
                             <img src="https://via.placeholder.com/350x200" id="p2image">
                         </div>
                     </div>
-                        <div class="project-3">
+                        <div class="project-3" id="project3">
                         <h3 id="p3heading">Example Project 3</h3>
                             <div class="project-3-content">
                                 <div>
@@ -138,7 +138,7 @@
 </section>
 
 <section class="contact" id="contact">
-    <div class="container contactcontainer">
+    <div class="container contactcontainer" id="contactcontainer">
         <div class="contact-content">
             <div class="contact-title">
                 <p>CONTACT</p>
@@ -161,15 +161,23 @@
 </section>
 
 <footer>
-    <div class="container" id="#foot">
-        <div class="footersocials">
-            <div class="footericons">
-                <a href="https://github.com/henrymeager">
-                    <i class="fa-brands fa-github fa-xl"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/henry-meager-12a538296/">
-                    <i class="fa-brands fa-linkedin fa-xl"></i>
-                </a>
+    <div class="container" id="foot">
+        <div class="footerbuttons">
+            <button id="openModalBtn">Open Contact Form</button>
+            <div id="contactModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeModalBtn">&times;</span>
+                    <h2>Contact Me</h2>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
