@@ -354,3 +354,17 @@ form {
     flex-direction: column;
 }
 
+#openModalBtn {
+    color: white;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+@media screen and(max-width:1000px) {
+    .home-image img {
+        height: 0;
+        width: 0;
+    }
+}
+
