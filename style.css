@@ -44,6 +44,7 @@ nav {
     padding-right: 1rem;
     list-style: none;
     text-decoration: none;
+    transition: color 2s;
 }
 
 .nav-links:hover {
@@ -361,10 +362,64 @@ form {
     background: none;
 }
 
-@media screen and(max-width:1000px) {
-    .home-image img {
-        height: 0;
-        width: 0;
+@media screen and (max-width: 1050px) {
+    #homemaincontent {
+        padding: auto 1rem;
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .home-image img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .about-image img {
+            display: none;
+        }
+}
+
+@media screen and (max-width: 750px) { 
+    .about-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) { 
+    .about-content {
+        padding: 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .nav-links {
+        padding-left: 0;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .nav-links {
+        padding-left: 0;
+        font-size: 13.5px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .project-1-content img {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .project-2-content img {
+       display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project-3-content img {
+       display: none;
+    }
+}
